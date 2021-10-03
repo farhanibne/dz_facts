@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #212529;
+}
+
+.login__container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 700px;
+  background-color: #212529;
+  color: azure;
+  border-radius: 10px;
+
+}
+
+
+.login__logo {
+  display: flex;
+  justify-content: center;
+}
+
+.login__desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.login__desc > h3 {
+  margin-top: 10px;
+  text-align: center;
+  font-size: xx-large;
+  font-family: "Cedarville Cursive", cursive;
+}
+
+
+.login__auth {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  flex: 0.9;
+}
+
+
+.login__authOption {
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  margin-bottom: 150px;
+  border: 1px solid lightgray;
+  background-color: #212529;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.login__authOption:hover{
+  background-color: #212529;
+
+  color: #198754;
+  border: 1px solid #198754;
+}
+
+
+
+.login__authOption > img {
+  height: 30px;
+  object-fit: contain;
+}
+
+.login__authOption > p {
+  margin-left: 11px;
+}
+
+.login__authDesc {
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+

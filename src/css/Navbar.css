@@ -1,0 +1,52 @@
+
+.qheader__rem{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    
+}
+.qheader__rem > .qheader__avater{
+    cursor: pointer;
+    margin-right: 20px;
+    margin-left: auto;
+    justify-content: end;
+    align-items: flex-end;
+    text-align: end;
+}
+.qheader__rem > .MuiSvgIcon-root{
+    font-size: 25px;
+    color: grey;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.qheader__rem > .MuiSvgIcon-root:hover{
+    color: azure;
+}
+
+.modal__scope{
+   display:flex;
+    /* align-items: center; */
+    background-color: whitesmoke;
+    padding: 5px;
+    margin-left: 10px;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid #212529;
+    cursor: pointer;
+    /* justify-content: center;
+    align-items: center; */
+}
+.modal__scope:hover{
+    border: 3px solid #212529;
+}
+p.abc{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+
+
+
+
+     
